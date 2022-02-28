@@ -1,6 +1,6 @@
 # openGlInstall
 
-การติดตั้ง openGL บน linux (Ubuntu)
+การติดตั้ง openGL บน linux (Ubuntu) [ใน 3 นาที]
 
 # How To install 
 
