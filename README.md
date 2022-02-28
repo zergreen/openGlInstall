@@ -6,7 +6,7 @@
 
 # How To install 
 
-    # Update central library/(อัพเดต สโตร์กลาง)
+    # Update central repository library/(อัพเดต สโตร์กลาง)
     sudo apt-get update
     
     # Program && librarry /(ตัวโปรแกรมและไลบารี่ที่จำเป็นสำหรับ openGL)
