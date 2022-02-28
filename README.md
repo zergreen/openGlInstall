@@ -17,6 +17,7 @@
     sudo apt-get install cmake
     sudo apt-get install libglew-dev
     sudo apt-get install mesa-common-dev
+    sudo apt-get install mesa-utils
     sudo apt-get install build-essential
     sudo apt-get install libglew1.5-dev libglm-dev
 
@@ -29,7 +30,7 @@
     
  เทสว่า เครื่องเราลองรับ opengl หรือไม่ โดยใช้คำสั่ง (โดยจะปรากฏเป็น simulation วัตถุเกียร์)
  
-    glxgear
+    glxgears
     
 # Compile And Run code
 
