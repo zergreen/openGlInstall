@@ -2,7 +2,7 @@
 
 การติดตั้ง openGL บน linux (Ubuntu) [ใน 5 นาที]
 
-![](https://knowyourmeme.com/photos/755556-reverse-gif)
+![](https://i.kym-cdn.com/photos/images/newsfeed/000/755/556/799.gif)
 
 # How To install 
 
