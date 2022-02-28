@@ -1,5 +1,7 @@
 # openGlInstall
 
+การติดตั้ง openGL บน linux (Ubuntu)
+
 # How To install 
 
     sudo apt-get update # Update central library/(อัพเดต สโตร์กลาง)
@@ -39,3 +41,16 @@
     # หรือเราจะตั้งชื่อไฟล์ด้วยก็ได้ เช่น
     g++ main.cpp -o test -lGL -lGLEW -lglfw && ./test
 
+# Suggest
+
+ถ้าคอมไพล์ไม่ผ่านทั้งที่โค้ดถูกแล้วแสดงว่าอาจจะไม่ได้นำเข้าไลบารี่เข้ามาคอมไพล์ด้วย แนะนำว่าให้เซิชใน <br>
+StackOverFlow แล้ว ติดตั้งไลบารี่นั้นซ่ะ แล้วตอนคอมไพล์ก็แนบไลบารี่นั้นด้วย
+
+# Test On
+
+เทสบนสถาปัตยกรรม
+    
+    OS: Ubuntu 20.04.3 LTS x86_64
+    CPU: Intel I5
+    GPU: NVIDIA
+    DATE: 1/3/2022
