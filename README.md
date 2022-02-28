@@ -65,5 +65,5 @@ StackOverFlow แล้ว ติดตั้งไลบารี่นั้�
 
 # Referrence
 
-https://www.wikihow.com/Install-Mesa-(OpenGL)-on-Linux-Mint (Suggest)
+https://www.wikihow.com/Install-Mesa-(OpenGL)-on-Linux-Mint (Suggest) <br>
 http://www.codebind.com/linux-tutorials/install-opengl-ubuntu-linux/
