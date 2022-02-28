@@ -2,6 +2,8 @@
 
 การติดตั้ง openGL บน linux (Ubuntu) [ใน 5 นาที]
 
+![](https://knowyourmeme.com/photos/755556-reverse-gif)
+
 # How To install 
 
     sudo apt-get update # Update central library/(อัพเดต สโตร์กลาง)
