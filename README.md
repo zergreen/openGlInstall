@@ -10,7 +10,6 @@
     sudo apt-get update
     
     # Program && librarry /(ตัวโปรแกรมและไลบารี่ที่จำเป็นสำหรับ openGL)
-    sudo apt-get update
     sudo apt-get install freeglut3
     sudo apt-get install freeglut3-dev
     sudo apt-get install binutils-gold
