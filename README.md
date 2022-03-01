@@ -1,11 +1,26 @@
 # openGlInstall
 
-การติดตั้ง openGL บน linux (Ubuntu) [ใน 3 นาที]
+การติดตั้ง openGL บน linux (Ubuntu) [ใน 5 นาที]
+
+![](https://i.kym-cdn.com/photos/images/newsfeed/000/755/556/799.gif)
 
 # How To install 
 
-    sudo apt-get update # Update central library/(อัพเดต สโตร์กลาง)
-    sudo apt-get install freeglut3 freeglut3-dev binutils-gold G++ cmake libglew-dev mesa-common-dev build-essential libglew1.5-dev libglm-dev # Program && librarry /(ตัวโปรแกรมและไลบารี่ที่จำเป็นสำหรับ openGL)
+    # Update central repository library/(อัพเดต สโตร์กลาง)
+    sudo apt-get update
+    
+    # Program && librarry /(ตัวโปรแกรมและไลบารี่ที่จำเป็นสำหรับ openGL)
+    sudo apt-get install freeglut3
+    sudo apt-get install freeglut3-dev
+    sudo apt-get install binutils-gold
+    sudo apt-get install g++ 
+    sudo apt-get install cmake
+    sudo apt-get install libglew-dev
+    sudo apt-get install mesa-common-dev
+    sudo apt-get install mesa-utils
+    sudo apt-get install build-essential
+    sudo apt-get install libglew1.5-dev libglm-dev
+
     
 # Check version
 
@@ -15,12 +30,12 @@
     
  เทสว่า เครื่องเราลองรับ opengl หรือไม่ โดยใช้คำสั่ง (โดยจะปรากฏเป็น simulation วัตถุเกียร์)
  
-    glxgear
+    glxgears
     
 # Compile And Run code
 
 <p>การรันไฟล์ .cpp เราต้องนำเข้าไลบารี่ที่ เราได้ระบุไว้ในส่วนของ include ซึ่ง ณ ที่นี้ ได้แก่ Gl, GLEW, glfw <br>
-   ซึ่งเราจะ นำเข้าไลบารี่ มาคอมไพล์ด้วยวิธีดังนี้ </p>
+   ซึ่งเราจะ นำเข้าไลบารี่ มาคอมไพล์ด้วยวิธีดังนี้ (อัพไฟล์ main.cpp ให้แล้วนะ) </p>
 
     g++ main.cpp -lGL -lGLEW -lglfw
     
@@ -32,6 +47,12 @@
 โดยหลังจากที่เราคอมไพล์ไฟล์แล้วเราจะได้ไฟล์เบื้องต้นมาชื่อว่า a.out โดยการรันไฟล์นี้ จะเหมือนกับใน gcc คือ
 
     ./a.out
+    
+# Update Lab5
+
+ในแลปที่ห้า เราจะต้อง นำโฟลเดอร์ Libs เข้ามารันดัวยนะ โดยใช้คำสั่งนี้
+
+    g++ Libs/*.cpp -g main.cpp -lGL -lGLEW -glfw
     
 # Trick
 
@@ -60,3 +81,8 @@ StackOverFlow แล้ว ติดตั้งไลบารี่นั้�
 เมื่อคุณคอมไพล์และรันสำเร็จจะได้รูปภาพประมาณนี้นะ
 
 ![triangle](src/triangle.png)
+
+# Referrence
+
+https://www.wikihow.com/Install-Mesa-(OpenGL)-on-Linux-Mint (Suggest) <br>
+http://www.codebind.com/linux-tutorials/install-opengl-ubuntu-linux/
