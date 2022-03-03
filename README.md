@@ -104,8 +104,6 @@ Syntax
 StackOverFlow แล้ว ติดตั้งไลบารี่นั้นซ่ะ แล้วตอนคอมไพล์ก็แนบไลบารี่นั้นด้วย
 
 # Test On
-
-เทสบนสถาปัตยกรรม
 ![ubuntuSpec](src/ubuntuSpec.png)
 
 # Complete Photo
