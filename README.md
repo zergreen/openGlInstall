@@ -91,3 +91,18 @@ http://www.codebind.com/linux-tutorials/install-opengl-ubuntu-linux/
 # VS CODE COMGILE & RUN & DEBUG
 
 หากเพื่อนอยากจะรันแบบไม่ต้องดีบัก สามารถ ก็อปไฟล์นี่ไปใช้ [.vscode](https://github.com/zergreen/openGlInstall/tree/master/.vscode)
+เรามาเข้ากันก่อนว่า task.json คืออะไร??
+task.json คือ ไฟล์ที่เอาไว้ใส่ค่าการคอมไพล์ โดยเรามาดูที่ตรงคำสั่ง args กันดีกว่า
+    
+     "args": [
+                "-fdiagnostics-color=always",
+                "-g",                   // ใช้เวลาที่เราต้องการจะสั่งให้คอมไพล์เลอร์ ไปคอมไพล์ที่ไฟล์ไหนบ้าง
+                "Libs/*.cpp",           // เป็นการบอกว่า เราจะเอา dircetory(โฟลเดอร์) ที่ชื่อ Libs มาคอมไพล์ด้วยนะ
+                "-g",
+                "${fileDirname}/*.cpp", // คอมไพล์ไฟล์ในไดเรคทอรี่ร์ปัจจุบันที่เราอยู่ โดยคอมไพล์ เฉพาะไฟล์ที่เป็นนามสกุล .cpp ในไดเรคทอรี่ นี้
+                "-l", "GL",             // ในเข้าไลบารี่ที่ชื่อ GL มาคอมไพล์ด้วย [ -l (library) ]
+                "-l", "GLEW",
+                "-l", "glfw",
+                "-o",                   // จะเอาไฟล์ชื่ออะไร [ -o (output) ]             
+                "${fileDirname}/${fileBasenameNoExtension}" // ชื่อไฟล์ ตามชื่อที่เซฟไว้
+            ],
