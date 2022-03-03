@@ -1,4 +1,4 @@
-# openGlInstall
+# การติดตั้ง openGL บน linux
 
 การติดตั้ง openGL บน linux (Ubuntu) [ใน 5 นาที(มั้ง)] <br>
 เราเทสบน เครื่อง linux จริง ไม่ได้ทำผ่าน virtual machine (VM Ware) หรือ WSL (linux terminal เทียม) น๊ะจ๊ะ <br>
