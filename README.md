@@ -22,7 +22,7 @@
     sudo apt-get install libglew1.5-dev libglm-dev
 
     
-# Check version
+# Check version && Test OpenGL
 
 หลังจากที่เราติดตั้งซอฟต์แวร์ช้างต้นแล้ว ให้เราเช็ค เวอร์ชั่นของ openGl โดยใช้คำสั่ง 
    
