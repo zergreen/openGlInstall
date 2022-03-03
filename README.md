@@ -50,7 +50,7 @@
     
 # Update Lab7 (OpenGLFirstProject)
 
-ในแลปที่เจ็ด เราจะต้อง นำโฟลเดอร์ Libs เข้ามาคอมไพล์ดัวยนะ โดยใช้คำสั่งนี้
+ในแลปที่เจ็ด เราจะต้อง นำโฟลเดอร์ Libs เข้ามาคอมไพล์ดัวยนะ โดยใช้คำสั่งนี้ (ไฟล์ [OpenGLFirstProject](https://github.com/zergreen/openGlInstall/tree/master/OpenGLFirstProject))
 
     g++ Libs/*.cpp -g main.cpp -lGL -lGLEW -glfw
     
