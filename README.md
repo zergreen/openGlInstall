@@ -48,7 +48,7 @@
 
     ./a.out
     
-# Update Lab5
+# Update Lab7 (OpenGLFirstProject)
 
 ในแลปที่ห้า เราจะต้อง นำโฟลเดอร์ Libs เข้ามารันดัวยนะ โดยใช้คำสั่งนี้
 
