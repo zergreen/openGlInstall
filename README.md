@@ -66,6 +66,10 @@ task.json คือ ไฟล์ที่เอาไว้ใส่ค่าก
                 "-o",                   // จะเอาไฟล์ชื่ออะไร [ -o (output) ]             
                 "${fileDirname}/${fileBasenameNoExtension}" // ชื่อไฟล์ ตามชื่อที่เซฟไว้
             ],
+            
+โดยเราสามารถแปลง args เป็นคำสั่งใน terminal ได้แบบด้านล่างนี้
+
+    g++ -g Libs/*.cpp -g *.cpp -l GL -l GLEW -l glfw -o test
 
     
 # Update Lab7 (OpenGLFirstProject)
