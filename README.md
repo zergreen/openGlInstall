@@ -86,3 +86,8 @@ StackOverFlow แล้ว ติดตั้งไลบารี่นั้�
 
 https://www.wikihow.com/Install-Mesa-(OpenGL)-on-Linux-Mint (Suggest) <br>
 http://www.codebind.com/linux-tutorials/install-opengl-ubuntu-linux/
+
+
+# VS CODE COMGILE & RUN & DEBUG
+
+This site was built using [.vscode](https://github.com/zergreen/openGlInstall/.vscode).
