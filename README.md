@@ -2,7 +2,7 @@
 
 การติดตั้ง openGL บน linux (Ubuntu) [ใน 5 นาที(มั้ง)] <br>
 เราเทสบน เครื่อง linux จริง ไม่ได้ทำผ่าน virtual machine (VM Ware) หรือ WSL (linux terminal เทียม) น๊ะจ๊ะ <br>
-### แต่เพื่อนก็แวะมาดู syntax ของ compiler g++ ได้นะะ เช่น -L -l g++ เป็นต้น
+### แต่เก็แวะมาดู syntax ของ compiler g++ ก่อนด้นะะ เช่น -L -l g++ เป็นต้น
 
 ![](https://i.kym-cdn.com/photos/images/newsfeed/000/755/556/799.gif)
 
