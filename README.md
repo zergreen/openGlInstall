@@ -90,4 +90,4 @@ http://www.codebind.com/linux-tutorials/install-opengl-ubuntu-linux/
 
 # VS CODE COMGILE & RUN & DEBUG
 
-This site was built using [.vscode](https://github.com/zergreen/openGlInstall/tree/master/.vscode).
+หากเพื่อนอยากจะรันแบบไม่ต้องดีบัก สามารถ ก็อปไฟล์นี่ไปใช้ [.vscode](https://github.com/zergreen/openGlInstall/tree/master/.vscode)
