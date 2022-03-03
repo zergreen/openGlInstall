@@ -106,7 +106,7 @@ StackOverFlow แล้ว ติดตั้งไลบารี่นั้�
 # Test On
 
 เทสบนสถาปัตยกรรม
-![osSpec](src/osSpec.png)
+![ubuntuSpec](src/ubuntuSpec.png)
 
 # Complete Photo
 
