@@ -86,6 +86,16 @@ Syntax
 
     gcc main.cpp -L/usr/include/GL -lGL
     
+# Include with no lib
+
+Syntax
+
+    -I พาธที่ต้องการจะ Include มาใช้ที่ไฟล์        # -I --> Include
+
+ตัวอย่าง
+
+    gcc main.cpp -I /usr/include/glm/*
+    
 # Update Lab7 (OpenGLFirstProject)
 
 ในแลปที่เจ็ด เราจะต้อง นำโฟลเดอร์ Libs เข้ามาคอมไพล์ดัวยนะ โดยใช้คำสั่งด้านล่างนี้ (ไฟล์ [OpenGLFirstProject](https://github.com/zergreen/openGlInstall/tree/master/OpenGLFirstProject))
