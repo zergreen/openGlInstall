@@ -96,6 +96,17 @@ Syntax
 
     gcc main.cpp -I /usr/include/glm/*
     
+# Full Absolute path set library
+
+วิธีนี้จะเป็นการอ้างพาธที่อยู่ ไลบารี่ แบบโครตตตต จะสุดแล้ววว (แต่แอบยาวนะ555) มาดูกันโล้ด
+Syntax
+    
+    -Ipath -Lpath -l(libraryName)       # 
+    
+Ex.
+    gcc main.cpp -I /usr/include/GL/ -L /usr/include/GL -l GL
+
+    
 # Update Lab7 (OpenGLFirstProject)
 
 ในแลปที่เจ็ด เราจะต้อง นำโฟลเดอร์ Libs เข้ามาคอมไพล์ดัวยนะ โดยใช้คำสั่งด้านล่างนี้ (ไฟล์ [OpenGLFirstProject](https://github.com/zergreen/openGlInstall/tree/master/OpenGLFirstProject))
@@ -137,7 +148,6 @@ glfwWindowHint(GLFW_OPENGL_ANY_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
 https://www.wikihow.com/Install-Mesa-(OpenGL)-on-Linux-Mint (Suggest) <br>
 http://www.codebind.com/linux-tutorials/install-opengl-ubuntu-linux/
-
 
 
     
