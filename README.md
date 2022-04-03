@@ -144,6 +144,13 @@ glfwWindowHint(GLFW_OPENGL_ANY_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 จริงๆอันนี้มีบอกไว้ในคลิป setup ของ Mac แล้วครับ
 3. เครื่อง Mac M1 (Arm) อันนี้ปัญหา Launch ไม่ได้ ต้องติดตั้ง Extension เสริม ชื่อ CodeLLDB แล้วเปลี่ยน Configuration เป็น LLDB: Launch ครับ ที่เหลือแก้ตัวแปรให้คล้ายๆเดิมครับ
 
+# ปัญหาที่พบบ่อย "โดยเฉพาะเครื่อง Mac"
+ถ้าเริ่มลอง uniform แล้ว รูปสามเหลี่ยมหายไป
+ให้ไปที่ Shader.cpp ย้ายบรรทัดที่ 107 และ 108 ที่เขียนว่า
+ uniformModel = glGetUniformLocation(shader, "model");
+uniformProjection = glGetUniformLocation(shader, "projection");
+ไปไว้ที่บรรทัดที่ 99 แทนครับ (ก่อน if (!result) อันสุดท้ายของฟังก์ชัน)
+
 # Referrence
 
 https://www.wikihow.com/Install-Mesa-(OpenGL)-on-Linux-Mint (Suggest) <br>
